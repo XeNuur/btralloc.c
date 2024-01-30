@@ -1,6 +1,5 @@
 #include "btralloc.h"
 #include <stdio.h>
-/*TEST SECTION*/
 
 int
 main(void) {
