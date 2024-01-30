@@ -26,3 +26,11 @@ main(void) {
 
 ```
 
+## Output 
+```
+79
+2137
+```
+
+## Have fun!
+

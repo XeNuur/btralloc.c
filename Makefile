@@ -1,10 +1,12 @@
-OUT=btralloc
+OUT=test.out
+CC=gcc
+RM=rm
 
 all:
-	gcc -g main.c btralloc.c -o $(OUT)
+	$(CC) -g main.c btralloc.c -o $(OUT)
 
 clear:
-	rm $(OUT)
+	$(RM) $(OUT)
 
 run: all
 	./$(OUT)
